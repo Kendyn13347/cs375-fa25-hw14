@@ -1,5 +1,4 @@
 \documentclass[a4paper,11pt]{article}
-
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{geometry}
@@ -32,7 +31,7 @@
 This report documents the implementations and analyses for the thread-safe data structures lab assignment, covering thread-safe queue and stack implementations, Producer-Consumer and Undo-Redo use cases, and additional exercises.
 
 \section{Exercise 1: Thread-Safe Queue and Stack}
-\lstinputlisting[language=C++]{thread_safe_data_structures.cpp}
+\lstinputlisting[language=C++]{ThreadSafe.cpp}
 \textbf{Explanation}: Describe how mutexes ensure thread safety in ThreadSafeQueue and ThreadSafeStack. Explain the Producer-Consumer and Undo-Redo implementations.
 
 \textbf{Analysis}: Discuss thread synchronization behavior and consumer termination logic.
@@ -40,12 +39,12 @@ This report documents the implementations and analyses for the thread-safe data 
 \textbf{Screenshot}: Include a screenshot of compiling and running thread_safe_data_structures.cpp.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{exercise1_screenshot.png}
+    \includegraphics[width=\textwidth]{ThreadSafe.png}
     \caption{Compilation and execution of thread_safe_data_structures.cpp}
 \end{figure}
 
 \section{Exercise 3: Thread-Safe Priority Queue}
-\lstinputlisting[language=C++]{priority_queue.cpp}
+\lstinputlisting[language=C++]{priorityQueue.cpp}
 \textbf{Explanation}: Describe how the priority queue maintains order and ensures thread safety.
 
 \textbf{Analysis}: Analyze the behavior of concurrent pushes and pops.
@@ -53,12 +52,12 @@ This report documents the implementations and analyses for the thread-safe data 
 \textbf{Screenshot}: Include a screenshot of compiling and running priority_queue.cpp.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{exercise3_screenshot.png}
+    \includegraphics[width=\textwidth]{priorityQueue.png}
     \caption{Compilation and execution of priority_queue.cpp}
 \end{figure}
 
 \section{Exercise 4: Thread-Safe Circular Buffer}
-\lstinputlisting[language=C++]{circular_buffer.cpp}
+\lstinputlisting[language=C++]{circularBuffer.cpp}
 \textbf{Explanation}: Explain the use of condition variables for synchronization.
 
 \textbf{Analysis}: Compare to ThreadSafeQueue from Exercise 1.
@@ -66,7 +65,7 @@ This report documents the implementations and analyses for the thread-safe data 
 \textbf{Screenshot}: Include a screenshot of compiling and running circular_buffer.cpp.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{exercise4_screenshot.png}
+    \includegraphics[width=\textwidth]{circularBuffer.png}
     \caption{Compilation and execution of circular_buffer.cpp}
 \end{figure}
 
@@ -79,7 +78,7 @@ This report documents the implementations and analyses for the thread-safe data 
 \textbf{Screenshot}: Include a screenshot of compiling and running thread_safe_deque.cpp.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{exercise5_screenshot.png}
+    \includegraphics[width=\textwidth]{thread_safe_deque.png}
     \caption{Compilation and execution of thread_safe_deque.cpp}
 \end{figure}
 
@@ -92,7 +91,7 @@ This report documents the implementations and analyses for the thread-safe data 
 \textbf{Screenshot}: Include a screenshot of compiling and running thread_safe_linked_list.cpp.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\textwidth]{exercise6_screenshot.png}
+    \includegraphics[width=\textwidth]{thread_safe_linked_list.png}
     \caption{Compilation and execution of thread_safe_linked_list.cpp}
 \end{figure}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.21)  21 OCT 2025 00:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.10.21)  21 OCT 2025 00:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -297,7 +297,7 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box55
 )
-No file Report.aux.
+(./Report.aux)
 \openout1 = `Report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -318,5 +318,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
+
 *geometry* driver: auto-detecting
-*geome
+*geometry*
